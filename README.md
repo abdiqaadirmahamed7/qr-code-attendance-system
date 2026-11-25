@@ -1,54 +1,100 @@
-# My Flutter Project
+# QR Code Attendance Management System
 
-kahor intaadan so clone garenin waxa doorata meesha laguu dhigi laha ee uu flutter-ka yaalo tusaale
-cd C:\Users\YOUR_NAME\Downloads\flutter
-marka aragtid meesha uu kuu yalo waxa so copy garesata mesha u yalo sida tusalaha kore waxa ka hor marisa cd kadib cloning-ka bilaaw ...
+A mobile-based attendance management system developed to simplify and improve the process of recording and managing student attendance using QR code technology.
 
-1. Clone repo-ga GitHub:
+## About the Project
 
-git clone https://github.com/AttendanceSys/attendance_system.git
+The QR Code Attendance Management System was developed as my Computer Science graduation project at **Somali National University (SNU)**.
 
-kadib marka so clone garesid waxa lagaa raba ina u sameso new branch adoo ku dhex jirtid folder-ka 
-ama tag folder-ka ado isticmaalaya 
+The system provides a digital approach to attendance management. It uses QR codes to support attendance recording and helps make the process more organized and efficient compared with traditional manual methods.
 
-cd attendance_system
-kadib 
+## Features
 
-2. git checkout -b your_branch_name
+- QR Code-based attendance recording.
+- Mobile application interface.
+- Digital attendance management.
+- Firebase integration.
+- Organized attendance records.
 
-your_branch_name ku badal magac cusub adoo ka dhigaya tusale login_page ama task lagu diray magaciisa.
+## Technologies Used
 
+| Technology | Purpose |
+|---|---|
+| Flutter | Mobile application development |
+| Dart | Application programming language |
+| Firebase | Backend and cloud services |
 
-## 🔧 How to run
+## Project Structure
 
+```text
+attendance_system/
+├── android/
+├── assets/
+├── functions/
+├── ios/
+├── lib/
+├── test/
+├── web/
+├── windows/
+├── pubspec.yaml
+└── README.md
+```
 
-1. Get packages:
+## Getting Started
 
-    flutter pub get
-2. Run
-    flutter run
-3. clean
-    flutter clean
+### Prerequisites
 
-markaa shaqada soo dhamesid qaabka aad u soo push gareen laheed waa kanaa
+Before running the project, make sure you have:
 
-4. this is how to Push it to GitHub
+- Flutter SDK installed.
+- Dart SDK installed (included with Flutter).
+- Visual Studio Code or Android Studio.
+- An Android emulator or physical device.
+- Firebase project configuration.
 
+### Installation
 
-# 1. Add all project files
-git add .
+1. Clone the repository:
 
-# 2. Commit the first version
-git commit -m "waxa aad qabatay kuso qor inta"
+```bash
+git clone https://github.com/abdiqaadirmahamed7/qr-code-attendance-system.git
+```
 
-# 3. Push branch-kaaga cusub GitHub
-git push -u origin magac-branch-kaaga
+2. Navigate to the project directory:
 
-### Cloud Functions
+```bash
+cd qr-code-attendance-system
+```
 
-#### Cleanup Expired Sessions
-This function marks sessions as inactive when their `expires_at` or `period_ends_at` timestamps are in the past. It ensures that stale sessions do not block new QR code generation.
+3. Install dependencies:
 
-**Deployment:**
-1. Ensure Firebase CLI is installed and authenticated.
-2. Run `firebase deploy --only functions` to deploy the function.
+```bash
+flutter pub get
+```
+
+4. Run the application:
+
+```bash
+flutter run
+```
+
+## Project Purpose
+
+This project demonstrates the application of mobile development, QR code technology, and cloud services to address a practical attendance management challenge in an educational environment.
+
+## Developer
+
+**Abdulkadir Mohamed**
+
+Computer Science Graduate  
+Somali National University
+
+GitHub: [@abdiqaadirmahamed7](https://github.com/abdiqaadirmahamed7)
+
+## Acknowledgment
+
+Developed as a Computer Science graduation project at Somali National University.
+
+---
+
+*Thank you for visiting this project!*
